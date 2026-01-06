@@ -1,0 +1,3 @@
+-possibilità di regolare l'orologio col pc in modo esplicito
+-aggiunta gestione anticipazione sensore (default=15000ms)
+-predisposto per LCD

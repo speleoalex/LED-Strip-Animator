@@ -1,0 +1,37 @@
+# Build files
+*.o
+*.elf
+*.hex
+*.eep
+*.map
+*.sym
+*.lss
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+*.sublime-*
+
+# Eclipse/NetBeans
+.project
+.cproject
+.settings/
+nbproject/private/
+build/
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives (keep originals in repo if needed)
+# *.zip
+# *.tar.gz
+
+# Temporary files
+*.tmp
+*.bak
+*.log

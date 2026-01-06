@@ -1,0 +1,30 @@
+.ledbuttonPreview,.ledbuttonPaint{
+    height: 16px;
+    width:16px;
+    background-color: #000;
+    border: 1px #dddddd outset;
+    border-radius: 6px;
+    color:transparent;
+}
+
+#currentcolor{
+    height: 32px;
+    width:32px;
+    background-color: #000;
+    border: 1px #dddddd outset;
+    border-radius: 6px;
+    color:transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
