@@ -120,28 +120,11 @@ make upload       # Upload to Arduino
 make clean        # Clean compiled files
 ```
 
-## Dependencies
-
-### Firmware
-- Arduino Core
-- Adafruit NeoPixel Library
-- SdFat Library
-
-### Web Interface
-- jQuery 1.11.2 (included)
-- Bootstrap 3.x (included)
-
-## Compatibility
-
-- **Microcontrollers**: ATmega328p (Arduino Uno), ATmega2560 (Arduino Mega), ATtiny85 (Trinket)
-- **Supported LEDs**: WS2812B, NeoPixel, and compatible (NEO_GRB + NEO_KHZ800)
-- **Browsers**: Chrome, Firefox, Safari, Edge (for web interface)
 
 ## Known Limitations
 
 - Maximum 1000 LEDs supported (modifiable in code)
-- SD card must be formatted FAT16/FAT32
-- File must be named `leds.ini` and located in the SD root
+
 
 ## License
 
@@ -150,11 +133,3 @@ GPLv3 - See source code for details.
 ## Author
 
 Alessandro Vernassa (speleoalex@gmail.com)
-
-## Contributing
-
-1. Fork the repository
-2. Create a branch for your feature (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push the branch (`git push origin feature/new-feature`)
-5. Open a Pull Request
